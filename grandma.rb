@@ -13,7 +13,7 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 
-def speak_to_grandma(phrase){
+def speaking_to_grandma(phrase)
   
   upper = phrase.upcase
   if(phrase != upper){
@@ -24,7 +24,6 @@ def speak_to_grandma(phrase){
   }
   else{
     puts "NO, NOT SINCE 1938!"
-}
 end
 
 
