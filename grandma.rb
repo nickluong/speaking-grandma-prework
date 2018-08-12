@@ -16,10 +16,11 @@
 
 def speak_to_grandma (phrase){
   
-  if(phrase != phrase.upcase){
+  upper = phrase.upcase
+  if(phrase != upper){
     puts "HUH?! SPEAK UP, SONNY!"
   }
-  elsif((phrase == phrase.upcase) && (phrase == "I LOVE YOU GRANDMA!")){
+  elsif((phrase == upper) && (phrase == "I LOVE YOU GRANDMA!")){
    puts "I LOVE YOU TOO PUMPKIN!"
   }
   else{
