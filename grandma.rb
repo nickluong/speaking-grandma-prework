@@ -19,13 +19,12 @@ def speak_to_grandma(phrase)
   
   if (phrase != upper)
      "HUH?! SPEAK UP, SONNY!";
-  
+  end 
   elsif(phrase == upper) && (phrase == "I LOVE YOU GRANDMA!")
     "I LOVE YOU TOO PUMPKIN!";
-  
+  end
   else
    "NO, NOT SINCE 1938!";
-
 end
 
 
